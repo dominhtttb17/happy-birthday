@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="website icon" type="png" href="image/heart.png"> -->
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Happy birthday Buess!!!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="boxcontainer">
+            <div class="image">
+                <img src="flag.png" alt="">
+            </div>
+            <div class="text-happybirthday">
+                <img src="texthappy.png" alt="">
+            </div>
+            <div class="cake">
+                <img src="cake.png" alt="">
+            </div>
+            <div class="box-balloon">
+                <div class="balloon-item1">
+                    <img src="balloon.png" alt="">
+                </div>
+                <div class="balloon-item1">
+                    <img src="balloon.png" alt="">
+                </div>
+            </div>
+            <div class="box-cloud">
+                <div class="cloud">
+                    <img src="cloud.png" alt="">
+                </div>
+                <div class="cloud">
+                    <img src="cloud.png" alt="">
+                </div>
+            </div>
+            <div class="box-firework">
+                <div class="firework">
+                    <img src="firework.png" alt="">
+                    <img src="firework1.png" alt="" id="firework1">
+                </div>
+                <div class="firework">
+                    <img src="firework.png" alt="">
+                    <img src="firework1.png" alt="" id="firework1">
+                </div>
+            </div>
+            <div class="paperCannons">
+                <img src="paperCannons1.png" alt="">
+            </div>
+            <div class="box-giftbox">
+                <img src="giftbox.png" alt="">
+                <img src="giftbox.png" alt="">
+                <img src="giftbox.png" alt="">
+                <img src="giftbox.png" alt="">
+                <img src="giftbox.png" alt="">
+                <img src="giftbox.png" alt="">
+            </div>
+            <div class="mail">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="boxcute">
+                <div class="cute1">
+                    <img src="cute.png" alt="">
+                </div>
+                <div class="cute2">
+                    <img src="cute.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="boxMail">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="boxMail-container">
+                <div class="card1">
+                    <div class="userImg">
+                        <img src="Face_2.jpg" alt="">
+                    </div>
+                    <h3>Happy birthday</h3>
+                    <div class="imageCute">
+                        <img src="cute1.png" alt="">
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="card2-content">
+                        <h3>Chào em, Cô gái của anh!</h3>
+                        <h2>Hôm nay là một ngày đặc biệt của một người đặc biệt.
+                            Ngày mà em hạnh phúc chào đời trên thế giới này và anh thật may mắn khi gặp được em 
+                            trong quãng đời này. Anh thì không miêu tả được hết cảm xúc lúc này được vì anh hơi kém vốn từ,
+                            khi chúng mình yêu nhau có lúc cãi vã, dỗi hờn nhau mong em bỏ quá cái tính trẻ con của anh nhé. 
+                            Đây là lần đầu tiên anh vận dụng kiến thức học để làm thiệp chúc mừng người con gái của anh có điều gì sơ 
+                            suất em thông cảm cho anh nhé ^^. Cuối cùng anh chúc cho cô gái của anh có một ngày ý nghĩa thật trọn vẹn 
+                            niềm hạnh phúc và vui vẻ trong cuộc sống nhé. Nhớ giữ gìn sức khỏe để còn học tập và làm việc một cách hiệu
+                            quả nha (^.^). Chào mừng em đến với tuổi 20 tươi trẻ.
+                        </h2>
+                         <div class="imageCute2">
+                            <img src="cute2.png" alt="">
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script>
+        document.addEventListener('mousemove', function(e){
+            let body = document.querySelector('body');
+            let heart = document.createElement('span');
+            let x = e.offsetX;
+            let y = e.offsetY;
+            heart.style.left = x+'px';
+            heart.style.top = y+'px';
+
+            let size = Math.random() * 10;
+            heart.style.width = 4 * size+'px';
+            heart.style.height = 4 * size+'px';
+
+
+            let transformValue = Math.random() * 360;
+            heart.style.transform = 'rotate('+ transformValue +'deg)';
+
+            body.appendChild(heart);
+
+            setTimeout(function(){
+                heart.remove();
+            },1000)
+        })
+
+
+        let mailBox = document.querySelector('.mail')
+        let boxmail = document.querySelector('.boxMail')
+        var close = document.querySelector('.fa-xmark')
+        mailBox.onclick = function(){
+            mailBox.classList.toggle('active')
+            boxmail.classList.add('active')
+        }
+
+        close.addEventListener('click', function(){
+            boxmail.classList.remove('active')
+        })
+    </script>
+</html>
